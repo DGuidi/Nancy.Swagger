@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using Swagger.ObjectModel;
 
 namespace Nancy.Swagger
 {
@@ -8,7 +7,9 @@ namespace Nancy.Swagger
     public interface ISwaggerModelCatalog : IEnumerable<SwaggerModelData>
     {
         SwaggerModelData GetModelForType<T>();
-        SwaggerModelData AddModel<T>();
+        SwaggerModelData GetModelForType(Type type);
+
+        SwaggerModelData AddModel<T>();        
         void AddModels(params Type[] types);
     }
 }
