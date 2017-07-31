@@ -30,7 +30,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Nancy.Swagger.Annotations.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\Nancy.Swagger.Annotations.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Nancy, Version=1.4.4.0, Culture=neutral, processorArchitecture=MSIL">
